@@ -5,14 +5,19 @@ version = '1.0'
 
 setup(name='django-garcimore',
       version=version,
-      description="",
-      long_description="""\
-""",
-      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
-      keywords='django garcimore',
+      description="A magic trick to make Django disappear",
+      long_description=open('README.txt').read(),
+      classifiers=[
+            'Framework :: Django',
+            'Intended Audience :: Developers',
+            'License :: OSI Approved :: MIT License',
+            'Operating System :: OS Independent',
+            'Development Status :: 5 - Production/Stable',
+          ],
+      keywords='django garcimore magic',
       author='Gael Pasgrimaud',
       author_email='gael@gawel.org',
-      url='',
+      url='http://github.com/gawel/django-garcimore',
       license='MIT',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
