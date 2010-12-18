@@ -1,0 +1,12 @@
+.installed.cfg
+develop-eggs/
+data/
+vtenv/
+parts/
+eggs/
+bin/
+*.egg-info
+*.pyc
+*.pyo
+*.swp
+*.db
